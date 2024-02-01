@@ -1,0 +1,115 @@
+.main-div {
+    display: flex;
+}
+
+.first-logo {
+    display: inline-block;
+}
+
+.learn-div {
+    width: 90%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.learn-div h1 {
+    font-size: 2.1875rem;
+    line-height: 40px;
+}
+
+footer {
+    text-align: center;
+    /* Center-align the icons */
+    background-color: white;
+    /* Set a background color for the footer */
+    padding: 20px 0;
+    /* Add some padding to the footer for spacing */
+}
+
+.social-media-list {
+    list-style: none;
+    /* Remove bullet points from the list */
+    padding: 90px;
+    /* Remove default padding from the list */
+
+}
+
+.social-media-list li {
+    display: inline-block;
+    /* Display icons horizontally */
+    margin-right: 20px;
+    /* Add space between icons */
+}
+
+.fab.fa-twitter,
+.fab.fa-instagram,
+.fab.fa-facebook,
+.fa-brands.fa-linkedin {
+    color: black;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: almarena, sans-serif;
+}
+
+#form input[type="password"],
+#form input[type="text"] {
+    width: 100%;
+    padding: 12px 36px 12px 12px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 2px solid rgb(219, 204, 204);
+    margin-top: 5px;
+}
+
+.password-container {
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.email-container {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.fa-eye {
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    cursor: pointer;
+    color: lightgrey;
+}
+
+button {
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(106, 111, 245);
+    color: rgb(255, 255, 255);
+    font-family: Almarena, sans-serif;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.reset-container {
+    text-align: center;
+    line-height: 15px;
+}
+
+img {
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    margin-top: 30px;
+}
+
+.login {
+    color: rgb(123, 123, 123);
+}
+.error-message{
+    color: red;
+}

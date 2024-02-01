@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>constructors</title>
+</head>
+<body>
+    
+    <script>
+    function Person(Name, religion){
+        this.name = Name
+        this.religion = religion
+        //adding a method to  constructor function
+        this.getFullDetails = function(){
+            return this.name + " " + this.religion  
+        }
+    }
+
+    // adding a new property or method to  constructor function using prototype
+Person.prototype.gender = "male";
+const person5 = new Person("Chiedu", "Christian");
+console.log(person5.gender);
+
+    //accessing the getFullDetials method
+    const person3 = new Person("AdamsRuth", "christian");
+    // console.log(person3.getFullDetails())
+
+    //adding a new object  to your constructor function 
+    const person1 = new Person("AdamsRuth", "christian");
+    const person2 = new Person("SetemiOjo", "christian");
+//adding property  to an object
+person1.age = 52;
+// console.log(person1.age)
+    // console.log(person1.getFullDetails);
+   
+    </script>
+</body>
+</html>

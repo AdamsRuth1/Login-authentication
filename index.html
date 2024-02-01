@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="./altschool logo.jpeg">
+    <script src="./validation.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Password Show & hide</title>
+</head>
+<body>
+    <div class="main-div">
+        <div>
+            <div class="first-logo">
+                <img src="https://github.com/AdamsRuth1/altschool/blob/main/altschool%20logo.jpeg?raw=true">
+                
+            </div>
+            <section class="learn-div">
+                <h1>Learn highly sought after skills without hassle</h1>
+                <p>Earn a Diploma in highly-sought after skills</p>
+            </section>
+
+            <footer>
+                <ul class="social-media-list">
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/YourPage"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/YourPage"><i class="fa-brands fa-linkedin"></i></i></a></li>
+                </ul>
+
+            </footer>
+        </div>
+
+        <div class="main-container">
+            <div class="logo">
+                <img src="https://github.com/AdamsRuth1/altschool/blob/main/altschool%20logo.jpeg?raw=true" />
+            </div>
+            <h1>Sign In</h1>
+            <p class="login">Enter your email address and password to log in to AltSchool Student Portal</p>
+            <form id="form" method="post">
+                <div class="email-container">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="text" placeholder="user@sample.com">
+                    <div id="email-error" class="error-message"></div>
+                </div> 
+                <div class="password-container">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="***********">
+                    <div id="password-error" class="error-message"></div>
+                    <i class="fa-solid fa-eye" id="show-password"></i>
+                </div>
+                <button id="submit" type="button">
+                    Proceed to dashboard
+                </button>
+            </form>
+
+           
+            <div class="reset-container">
+                <p> Forgot password? <a href="resetpassword.html">Reset Now!</a>
+                </p>
+                <p> Don't have an account yet? <a href="https://portal.altschoolafrica.com/auth/create-account"> Apply
+                        Now!</a></p>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js">
+
+</script>
+</body>
+</html>
